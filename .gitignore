@@ -1,0 +1,16 @@
+# notes stay local - do not commit markdown
+*.md
+
+# secrets
+.env
+
+# generated data and trained models are reproducible, keep them out of git
+data/generated/
+models/*.joblib
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
